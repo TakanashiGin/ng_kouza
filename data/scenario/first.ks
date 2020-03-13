@@ -6,7 +6,7 @@
 
 
 
-; データ読み込み
+; データ読み込み（読み込みものはfirst.ksで読み込みのがいい）
 [call storage="system/system_main.ks"]
 
 

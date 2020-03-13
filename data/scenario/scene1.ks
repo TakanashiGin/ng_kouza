@@ -4,6 +4,7 @@
 [cm]
 [clearfix]
 [start_keyconfig]
+; [hr]はmacro.ksで定義済
 [hr]
 
 [bg storage="../fgimage/color/black.png" time="0"]
@@ -24,7 +25,6 @@
 ; 各レイヤーの設定
 [layopt layer="message0" visible="false"]
 [layopt layer="fix" visible="false"]
-
 [layopt layer="0" visible="true"]
 [layopt layer="1" visible="true"]
 
@@ -50,6 +50,7 @@
 [layopt layer="fix" visible="true"]
 
 
+; #XXXで話者名を表示
 #？？？
 [voice start="true"]「やぁ。目が覚めたようだね」[p]
 #
@@ -111,9 +112,8 @@
 [camera layer="0" x="0" time="0"]
 
 ; [camera]×２
-; カノンは海よりも手前にいるわけですから、海よりもあかねのほうが
-; ダイナミックに動くのが自然です。
-; そこで、あかねを映している１カメラのほうを気持ち多めに動かします。(比は適当)
+; カノンは海よりも手前にいるわけですから、海よりもカノンのほうがダイナミックに動くのが自然です。
+; そこで、カノンを映している１カメラのほうを気持ち多めに動かします。(比は適当)
 [camera time="2000" x="-300" y="0" layer="1" wait="false"]
 [camera time="2000" x="-160" y="0" layer="0"]
 
